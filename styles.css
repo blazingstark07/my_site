@@ -1,0 +1,126 @@
+/*color patter
+yellow: fce38a;
+red:ff165d;
+blue: 14ffec;
+body: faf3f3;
+*/
+
+body{
+	margin: 0;
+	text-align: center;
+	font-family: 'Pangolin', cursive;
+	background-color: #faf3f3;
+}
+h1{
+	margin: 50px auto 0 auto;
+	font-size: 5.625rem;
+	font-family: 'Pangolin', cursive;
+	color: #ff165d;
+	line-height: 2;
+}
+h2{
+	font-family: 'Pangolin', cursive;
+	font-size: 2.5rem;
+	color: #ff165d;
+}
+h3{
+	color: #3ec1d3;
+	font-family: 'Pangolin', cursive;
+}
+p{
+	line-height: 2;
+}
+.top_cont{
+	background-color: #fce38a;
+	position: relative;
+	padding: 100px;
+}
+.mid_cont{
+	padding: 20px 0 50px 0;
+}
+.bot_cont{
+	background-color: #ffc288;
+	padding: 20px 0 20px;
+
+}
+.bot_cloud{
+	position: absolute;
+}
+.top_cloud{
+	position: absolute;
+	right: 30%;
+	top: 50px;
+}
+.web_dev{
+	font-weight: normal;
+}
+.skill-row{
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+}
+.skill_img{
+	width: 25%;
+	float: left;
+	margin-right: 30px ;
+}
+.game_img{
+	width: 25%;
+	float: right;
+	margin-left: 30px ;
+}
+hr{
+	border-style: none none dotted none;
+	width:3%;
+	border-width: 5px;
+	border-color: #c8c2bc;
+	height: 10px;
+}
+a{
+	color: #ff5200;
+	font-size: 1.32rem;
+	margin: 10px 30px;
+	text-decoration: none;
+}
+a:hover{
+	color: #f21170;
+	font-size: 1.40rem;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #26becc;
+  background-image: -webkit-linear-gradient(top, #26becc, #32b5d9);
+  background-image: -moz-linear-gradient(top, #26becc, #32b5d9);
+  background-image: -ms-linear-gradient(top, #26becc, #32b5d9);
+  background-image: -o-linear-gradient(top, #26becc, #32b5d9);
+  background-image: linear-gradient(to bottom, #26becc, #32b5d9);
+  text-decoration: none;
+}
+.copyright{
+	line-height: 1;
+	color: #f21170;
+	font-size: 0.75rem;
+	padding: 20px 0;
+}
+.email{
+	line-height: 1;
+}
+.me{
+	height: 15rem;
+}
